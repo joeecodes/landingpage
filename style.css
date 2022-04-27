@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css?family=Saira+Semi+Condensed");
+
+body {
+    width: 100%;
+    /*!*overflow: hidden;*! 07/04/2022 - JOSEPH HOSTEN*/
+    background: hsla(0, 5%, 5%, 1) url("/assets/img/bg2.gif") no-repeat fixed;
+    /*background: #39393B;*/
+    font-family: "Saira Semi Condensed", sans-serif;
+    font-size: 70px;
+    padding-top: 35px;
+}
+
+svg {
+    width: 100%;
+}
+
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+}
+
+a {
+    color: snow;
+}
+
+.content, .copyright, .credits, .credits-github, .credits-heart {
+    padding-left: 15%;
+    color: lightpink;
+    text-shadow: 3px 2px black;
+}
+
+.awesome {
+    font-size: 20px;
+}
+
+.header {
+    padding: 10px;
+}
+
+hr {
+    width: 20%;
+    margin: 30px auto;
+    color: pink;
+    opacity: 50%;
+}
+
+.copyright {
+    font-size: 28px;
+}
+
+.credits, .credits-github, .credits-heart {
+    font-size: 30px;
+}
+
+.copyright {
+    font-size: 20px;
+}
