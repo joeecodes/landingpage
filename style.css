@@ -2,6 +2,8 @@
 
 body {
     width: 100%;
+    min-width: 1000px;
+    height: auto;
     /*!*overflow: hidden;*! 07/04/2022 - JOSEPH HOSTEN*/
     background: hsla(0, 5%, 5%, 1) url("/assets/img/bg2.gif") no-repeat fixed;
     /*background: #39393B;*/
@@ -28,9 +30,6 @@ a {
     text-shadow: 3px 2px black;
 }
 
-.awesome {
-    font-size: 20px;
-}
 
 .header {
     padding: 10px;
@@ -38,9 +37,9 @@ a {
 
 hr {
     width: 20%;
-    margin: 30px auto;
     color: pink;
     opacity: 50%;
+    margin: 30px auto 30px 50%;
 }
 
 .copyright {
@@ -53,4 +52,16 @@ hr {
 
 .copyright {
     font-size: 20px;
+}
+
+@media screen and (min-width: 500px) {
+    body {
+        width: 420px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    body {
+        width: 720px;
+    }
 }
