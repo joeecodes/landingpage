@@ -6,11 +6,11 @@ body {
     min-width: 1000px;
     height: auto;
     /*!*overflow: hidden;*! 07/04/2022 - JOSEPH HOSTEN*/
-    background: hsla(0, 5%, 5%, 1) url("/assets/img/bg2.gif") no-repeat fixed;
     /*background: #39393B;*/
     font-family: "Saira Semi Condensed", sans-serif;
     font-size: 30px;
     padding-top: 35px;
+    background: hsla(0, 5%, 5%, 1) url("/assets/img/bg2.gif") no-repeat fixed center;
 }
 
 .title {
@@ -37,4 +37,13 @@ h5 {
 
 .whoami {
     margin-top: -4%;
+}
+
+.box {
+    /*shape-margin: 10px;*/
+    color: black;
+    border: 30px solid lightblue;
+    margin-left: 15%;
+    width: 30%;
+    margin-top: -3%;
 }
