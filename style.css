@@ -65,3 +65,14 @@ hr {
         width: 720px;
     }
 }
+
+.readmore {
+    font-size: 25px;
+    margin-top: -10%;
+    margin-left: 1%;
+}
+
+.readmore-url {
+    color: lightpink;
+    text-shadow: 3px 2px black;
+}

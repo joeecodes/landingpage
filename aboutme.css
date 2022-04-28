@@ -1,0 +1,40 @@
+/*@import url("style.css");*/
+@import url("https://fonts.googleapis.com/css?family=Saira+Semi+Condensed");
+
+body {
+    width: 100%;
+    min-width: 1000px;
+    height: auto;
+    /*!*overflow: hidden;*! 07/04/2022 - JOSEPH HOSTEN*/
+    background: hsla(0, 5%, 5%, 1) url("/assets/img/bg2.gif") no-repeat fixed;
+    /*background: #39393B;*/
+    font-family: "Saira Semi Condensed", sans-serif;
+    font-size: 30px;
+    padding-top: 35px;
+}
+
+.title {
+    padding-left: 15%;
+    color: lightpink;
+    text-shadow: 3px 2px black;
+    font-size: 50px;
+}
+
+p {
+    padding-left: 15%;
+    color: lightpink;
+    text-shadow: 3px 2px black;
+    font-size: 30px;
+}
+
+h5 {
+    padding-left: 15%;
+    color: lightpink;
+    text-shadow: 3px 2px black;
+    font-size: 30px;
+
+}
+
+.whoami {
+    margin-top: -4%;
+}
