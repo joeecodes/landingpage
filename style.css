@@ -1,11 +1,18 @@
 @import url("https://fonts.googleapis.com/css?family=Saira+Semi+Condensed");
 
+body, html {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+
 body {
     width: 100%;
     min-width: 1000px;
-    height: auto;
+    /*height: auto;*/
     /*!*overflow: hidden;*! 07/04/2022 - JOSEPH HOSTEN*/
-    background: hsla(0, 5%, 5%, 1) url("/assets/img/bg2.gif") no-repeat fixed;
+    background: hsla(0, 5%, 5%, 1) url("/assets/img/bg2.gif") no-repeat fixed center;
+    background-size: cover;
     /*background: #39393B;*/
     font-family: "Saira Semi Condensed", sans-serif;
     font-size: 70px;

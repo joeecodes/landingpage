@@ -1,6 +1,11 @@
 /*@import url("style.css");*/
 @import url("https://fonts.googleapis.com/css?family=Saira+Semi+Condensed");
 
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     width: 100%;
     min-width: 1000px;
@@ -20,11 +25,17 @@ body {
     font-size: 50px;
 }
 
-p {
+p, ul {
     padding-left: 15%;
     color: lightpink;
     text-shadow: 3px 2px black;
-    font-size: 30px;
+    font-size: 27px;
+    padding-right: 15%;
+    line-height: 85%;
+}
+
+ul {
+    padding-left: 20%;
 }
 
 h5 {
@@ -35,15 +46,45 @@ h5 {
 
 }
 
-.whoami {
-    margin-top: -4%;
+
+.highlight {
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
 }
 
-.box {
-    /*shape-margin: 10px;*/
-    color: black;
-    border: 30px solid lightblue;
-    margin-left: 15%;
-    width: 30%;
-    margin-top: -3%;
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+}
+
+.header {
+    font-size: 30px;
+
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: purple;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rebeccapurple;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: mediumpurple;
 }
