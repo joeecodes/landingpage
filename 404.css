@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css?family=Saira+Semi+Condensed");
+
+
+.no-page-header {
+    color: lightpink;
+    text-shadow: 3px 2px black;
+    text-align: center;
+    /*position: relative;*/
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+    margin: 0 auto;
+}
+
+body {
+    width: 100%;
+    min-width: 1000px;
+    /*height: auto;*/
+    overflow: hidden;
+    background: hsla(0, 5%, 5%, 1) url("/assets/img/bg2.gif") no-repeat fixed center;
+    background-size: cover;
+    /*background: #39393B;*/
+    font-family: "Saira Semi Condensed", sans-serif;
+    font-size: 70px;
+    /*padding-top: 35px;*/
+}
+
+@media screen and (min-width: 500px) {
+    body {
+        width: 420px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    body {
+        width: 720px;
+    }
+}
+
+.notfound {
+    font-size: 40px;
+    position:relative;
+    z-index:1;
+}
+
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+}
+
+br {
+    display: block; /* makes it have a width */
+    content: ""; /* clears default height */
+    margin-top: -40px; /* change this to whatever height you want it */
+}
+
+img {
+    position:relative;
+    z-index:0;
+}
+
+.back {
+    color: lightpink;
+    text-shadow: 3px 2px black;
+    font-size: 30px;
+}
