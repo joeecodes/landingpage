@@ -15,7 +15,7 @@ body {
     font-family: "Saira Semi Condensed", sans-serif;
     font-size: 30px;
     padding-top: 35px;
-    background: hsla(0, 5%, 5%, 1) url("/assets/img/bg2.gif") no-repeat fixed center;
+    background: hsla(0, 5%, 5%, 1) url("https://cdn.joehosten.me/web/landingpage-joe/assets/img/bg2.gif") no-repeat fixed center;
     background-size: cover;
 }
 
